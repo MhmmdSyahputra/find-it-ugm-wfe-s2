@@ -25,16 +25,36 @@
         }
 
         .logo {
-            margin-left: -450px;
+            margin-left: -590px;
         }
+
+        .active {
+            border-bottom: 2px solid #00FFCE;
+        }
+
+        /* NavBar Ketika di sorot */
+        .webinar:hover {
+            transition-duration: 200;
+            border-bottom: 2px solid #00FFCE;
+        }
+
+        .compe:hover {
+            border-bottom: 2px solid #00FFCE;
+        }
+
+        .about:hover {
+            border-bottom: 2px solid #00FFCE;
+        }
+
+        /* End NavBar Ketika di sorot */
 
         .kotak {
             position: relative;
             z-index: 1;
             top: 0;
-            width: 600px;
-            height: 450px;
-            left: 650px;
+            width: 700px;
+            height: 500px;
+            left: 500px;
 
         }
 
@@ -42,10 +62,12 @@
             position: absolute;
             top: 860px;
             z-index: 2;
-            left: 750px;
+            left: 580px;
         }
 
-        .title H1 {
+        .about-find-it H1,
+        .future {
+            font-weight: bold;
             text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
         }
 
@@ -54,6 +76,7 @@
         }
 
         .competition {
+            font-weight: bold;
             text-transform: uppercase;
             padding-top: 150px;
             font-size: 3em;
@@ -75,6 +98,7 @@
 
 <body>
 
+    <!-- Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg ant-layout-header navbar-dark bg-dark">
             <div class="container">
@@ -90,16 +114,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active mx-2" aria-current="page" href="#">
+                        <a class="nav-link home active mx-2" aria-current="page" href="#">
                             <i class="fa-solid fa-house"></i>&nbsp;Home
                         </a>
-                        <a class="nav-link mx-2" href="#">
+                        <a class="nav-link webinar mx-2" href="#">
                             <i class="fa-solid fa-comments"></i>&nbsp;Webinar
                         </a>
-                        <a class="nav-link mx-2" href="#">
+                        <a class="nav-link compe mx-2" href="#">
                             <i class="fa-solid fa-trophy"></i>&nbsp;Competition
                         </a>
-                        <a class="nav-link mx-2" href="#">
+                        <a class="nav-link about mx-2" href="#">
                             <i class="fa-solid fa-circle-info"></i>&nbsp;About
                         </a>
                     </div>
@@ -111,6 +135,7 @@
             </div>
         </nav>
     </header>
+    <!-- End Navbar -->
 
     <section class="content">
         <div style="height: 93vh; background-color: #000000;">
@@ -122,19 +147,36 @@
             <img src="img/kotak.png" class="kotak mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
             <img src="https://find-it.id/_next/static/media/logo.0aaf9a4d.svg?imwidth=19200" data-aos="zoom-out"
-                data-aos-duration="1000" class="logo" width="350">
-            <div class="col-md-4 about-find-it" data-aos="zoom-in-up" data-aos-duration="1000">
+                data-aos-duration="1000" class="logo" width="330">
+            <div class="col-md-5 about-find-it" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div style="color: #FFFFFF;" class="isi-kotak">
                     <div class="title mb-5">
                         <h1>ABOUT FIND IT!</h1>
+                        <div class="row" style="height: 10px;">
+                            <div class="col-md-5">
+                                <p style="width: 180px; border: 1px solid #FFFFFF;">
+                            </div>
+                            <div class="col-md-14 mx-3 d-flex">
+                                <label class="future" style="margin-left: 170px; margin-top: -26px; font-size: 0.7em;">
+                                    Future Innovation and Discovery IT
+                                </label>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="body">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facilis sint quaerat iusto
-                        odio, illo eos eum quos nobis cupiditate pariatur optio vel esse dolorem! Ullam quos numquam,
-                        accusamus distinctio ducimus repellat aliquam nam a! Cumque tenetur ea praesentium. Architecto
-                        velit est hic nostrum distinctio placeat dolor vitae consequuntur animi.
+                        <p>
+                            FIND IT! (Future Innovations and Discovery IT) merupakan sebuah kompetisi tingkat nasional
+                            di
+                            bidang Teknologi Informasi. FIND IT! merupakan acara yang bertujuan untuk mengeksplorasi dan
+                            mengedukasi publik mengenai berbagai macam elemen di bidang teknologi informasi. FIND IT!
+                            terdiri dari berbagai rangkaian acara, antara lain Hackathon, Competitive Programming, Data
+                            Analytics Competition, Esports Competition, Capture The Flag Competition dan Webinar
+                            Nasional.
+                        </p>
 
-                        <button class="btn see-more mt-5"
+
+                        <button class="btn see-more mt-2"
                             style="background-color: #00FFCE; width: 200px; height: 50px;">
                             See more
                         </button>
