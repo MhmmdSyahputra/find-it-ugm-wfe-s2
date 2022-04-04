@@ -15,200 +15,9 @@
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <style>
-        body {
-            background-color: #EDEDED;
-        }
 
-        .circle1 {
-            position: absolute;
-            margin-left: 600px;
-            bottom: 500px;
-            height: 80px;
-            width: 80px;
-            border-radius: 100px;
-            transition: 1s;
-
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-        .circle2 {
-            position: absolute;
-            margin-left: 45%;
-            bottom: 100px;
-            height: 100px;
-            width: 100px;
-            border-radius: 100px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .circle3 {
-            position: absolute;
-            margin-left: 90%;
-            bottom: 400px;
-            height: 80px;
-            width: 80px;
-            border-radius: 100px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square1 {
-            position: absolute;
-            margin-left: 8%;
-            bottom: 400px;
-            height: 80px;
-            width: 15px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-        .square2 {
-            position: absolute;
-            margin-left: 15%;
-            bottom: 100px;
-            height: 10px;
-            width: 10px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square3 {
-            position: absolute;
-            margin-left: 47%;
-            bottom: 350px;
-            height: 10px;
-            width: 10px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square4 {
-            position: absolute;
-            margin-left: 90%;
-            bottom: 100px;
-            height: 75px;
-            width: 15px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-
-        body::-webkit-scrollbar {
-            width: 0.5em;
-        }
-
-        body::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        }
-
-        body::-webkit-scrollbar-thumb {
-            border-radius: 30px;
-            background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
-            outline: 1px solid slategrey;
-        }
-
-        .video-hero-head video {
-            position: relative;
-            width: 450px;
-            margin-left: 55%;
-            margin-bottom: -37%;
-        }
-
-        .bg-dark {
-            background-color: #20252B;
-        }
-
-        .logo {
-            margin-left: -590px;
-        }
-
-        .image-find-it img {
-            margin-bottom: -20%;
-            margin-left: 250px;
-        }
-
-        .active {
-            border-bottom: 2px solid #00FFCE;
-        }
-
-        /* NavBar Ketika di sorot */
-        .webinar:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        .compe:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        .about:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        /* End NavBar Ketika di sorot */
-
-        .kotak {
-            position: relative;
-            z-index: 1;
-            top: 0;
-            width: 700px;
-            height: 500px;
-            left: 500px;
-
-        }
-
-        .about-find-it {
-            position: absolute;
-            top: 860px;
-            z-index: 2;
-            left: 580px;
-        }
-
-        .about-find-it H1,
-        .future {
-            font-weight: bold;
-            text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
-        }
-
-        .see-more {
-            box-shadow: 0 0 10px #00FFCE, 2px 19px 20px rgba(0, 255, 206, 0);
-        }
-
-        .competition {
-            font-weight: bold;
-            text-transform: uppercase;
-            padding-top: 150px;
-            font-size: 3em;
-            text-align: center;
-            color: #00FFCE;
-            text-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
-        }
-
-        .more-in-comp {
-            text-transform: uppercase;
-            font-weight: bold;
-            color: #FFFFFF;
-            font-size: 0.9em;
-        }
-    </style>
+    <!-- css eksternal -->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Find IT! 2022</title>
 </head>
@@ -217,7 +26,7 @@
 
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg ant-layout-header navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg ant-layout-header navbar-dark" style="background-color: #20252B;">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="img/find-it-head.svg" alt="Find IT" width="150">
@@ -278,7 +87,8 @@
         <div style="height: 500px; background-color: #EDEDED;">
             <img src="img/kotak.png" class="kotak mb-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
-            <img src="img/logo.svg" data-aos="zoom-out" data-aos-duration="1000" class="logo" width="330">
+            <img src="img/logo.svg" data-aos="zoom-out" style="margin-left: -590px;" data-aos-duration="1000"
+                class="logo" width="330">
             <div class="col-md-5 about-find-it" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div style="color: #FFFFFF;" class="isi-kotak">
                     <div class="title mb-5">
