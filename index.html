@@ -20,6 +20,109 @@
             background-color: #EDEDED;
         }
 
+        .circle1 {
+            position: absolute;
+            margin-left: 600px;
+            bottom: 500px;
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            transition: 1s;
+
+            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(234, 154, 34);
+            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
+        }
+
+        .circle2 {
+            position: absolute;
+            margin-left: 700px;
+            bottom: 100px;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(40, 195, 189);
+            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
+        }
+
+        .circle3 {
+            position: absolute;
+            margin-left: 90%;
+            bottom: 400px;
+            height: 80px;
+            width: 80px;
+            border-radius: 100px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(40, 195, 189);
+            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
+        }
+
+        .square1 {
+            position: absolute;
+            margin-left: 8%;
+            bottom: 400px;
+            height: 80px;
+            width: 15px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(234, 154, 34);
+            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
+        }
+
+        .square2 {
+            position: absolute;
+            margin-left: 15%;
+            bottom: 100px;
+            height: 10px;
+            width: 10px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(40, 195, 189);
+            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
+        }
+
+        .square3 {
+            position: absolute;
+            margin-left: 47%;
+            bottom: 350px;
+            height: 10px;
+            width: 10px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(40, 195, 189);
+            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
+        }
+
+        .square4 {
+            position: absolute;
+            margin-left: 90%;
+            bottom: 100px;
+            height: 75px;
+            width: 15px;
+            transition: 1s;
+            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
+            background: rgb(234, 154, 34);
+            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
+        }
+
+
+        body::-webkit-scrollbar {
+            width: 0.5em;
+        }
+
+        body::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        }
+
+        body::-webkit-scrollbar-thumb {
+            border-radius: 30px;
+            background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+            outline: 1px solid slategrey;
+        }
+
         .bg-dark {
             background-color: #20252B;
         }
@@ -28,22 +131,29 @@
             margin-left: -590px;
         }
 
+        .image-find-it img {
+            margin-bottom: -500px;
+            margin-left: 250px;
+        }
+
         .active {
             border-bottom: 2px solid #00FFCE;
         }
 
         /* NavBar Ketika di sorot */
         .webinar:hover {
-            transition-duration: 200;
             border-bottom: 2px solid #00FFCE;
+            transition: 0.1s;
         }
 
         .compe:hover {
             border-bottom: 2px solid #00FFCE;
+            transition: 0.1s;
         }
 
         .about:hover {
             border-bottom: 2px solid #00FFCE;
+            transition: 0.1s;
         }
 
         /* End NavBar Ketika di sorot */
@@ -139,6 +249,18 @@
 
     <section class="content">
         <div style="height: 93vh; background-color: #000000;">
+            <div id='circle1' class="circle1"></div>
+            <div id='circle2' class="circle2"></div>
+            <div id='circle3' class="circle3"></div>
+
+            <div id='square1' class="square1"></div>
+            <div id='square2' class="square2"></div>
+            <div id='square3' class="square3"></div>
+            <div id='square4' class="square4"></div>
+            <div class="image-find-it">
+                <img src="https://find-it.id/_next/static/media/findit-logo.1b2fae91.webp?imwidth=828" alt="find-it.id"
+                    width="270" class="mt-5">
+            </div>
 
         </div>
 
@@ -215,9 +337,85 @@
 
     </section>
 
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+
+        var document_height = $(document).height() - $(window).height();
+        // circle efect
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var circle1_position_left = 90 * (scroll_position / document_height);
+                $('#circle1').css({
+                    'left': circle1_position_left
+                });
+            });
+        });
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var circle2_position_left = 90 * (scroll_position / document_height);
+                $('#circle2').css({
+                    'left': circle2_position_left
+                });
+            });
+        });
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var circle3_position_left = -90 * (scroll_position / document_height);
+                $('#circle3').css({
+                    'left': circle3_position_left
+                });
+            });
+        });
+        // end circle efect
+
+        // square efect
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var square1_position_left = -90 * (scroll_position / document_height);
+                $('#square1').css({
+                    'left': square1_position_left
+                });
+            });
+        });
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var square2_position_left = -90 * (scroll_position / document_height);
+                $('#square2').css({
+                    'left': square2_position_left
+                });
+            });
+        });
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var square3_position_left = -90 * (scroll_position / document_height);
+                $('#square3').css({
+                    'left': square3_position_left
+                });
+            });
+        });
+        $(function () {
+            $(window).scroll(function () {
+                var scroll_position = $(window).scrollTop();
+                var square4_position_left = 90 * (scroll_position / document_height);
+                $('#square4').css({
+                    'left': square4_position_left
+                });
+            });
+        });
+        // end circle efect
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
