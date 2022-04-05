@@ -143,7 +143,7 @@
 
         /* End NavBar Ketika di sorot */
 
-        .kotak {
+        .kotak-about-find-it {
             position: relative;
             z-index: 1;
             top: 0;
@@ -154,18 +154,24 @@
 
         .about-find-it {
             position: absolute;
-            top: 860px;
+            top: 900px;
             z-index: 2;
             left: 580px;
         }
 
         .about-find-it H1,
         .future {
+            color: #E8E9E9;
             font-weight: bold;
             text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
         }
 
-        .see-more {
+        .about-find-it p{
+            font-size: 0.8em;
+            color: #E8E9E9;
+        }
+
+        .btn-see-more-about-find-it {
             box-shadow: 0 0 10px #00FFCE, 2px 19px 20px rgba(0, 255, 206, 0);
         }
 
@@ -184,4 +190,67 @@
             font-weight: bold;
             color: #FFFFFF;
             font-size: 0.9em;
+        }
+
+        .kotak-hackathon {
+            background-color: #181C23;
+            position: relative;
+            border: 2px solid #00FFCE;
+            z-index: 1;
+            margin-left: 24.5%;
+            top: 60px;
+            width: 700px;
+            height: 350px;
+        }
+
+        .hackathon {
+            width: 25%;
+            position: absolute;
+            bottom: -1300px;
+            z-index: 2;
+            left: 50%;
+        }
+        .hackathon img{
+            position: absolute;
+            bottom: -30px;
+            z-index: 2;
+            left: -90%;
+        }
+
+        .hackathon h1{
+            font-weight: bold;
+            color: #00FFCE;
+        }
+
+        .hackathon p {
+            font-size: 0.8em;
+            color: #E8E9E9;
+        }
+
+        .hackathon button {
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
+            color: #FFFFFF;
+        }
+        .hackathon button:hover {
+            background-color: #00FFCE;
+        }
+
+        .webinar-sec h1{
+            font-weight: bold;
+            text-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
+            color: #FFCE00;
+        }
+
+        .webinar-sec p{
+            font-size: 0.8em;
+            color: #E8E9E9;
+        }
+
+        .webinar-sec button{
+            width: 200px; 
+            height: 50px;
+            box-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
+            background-color: #FFCE00;
         }
