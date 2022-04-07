@@ -7,10 +7,10 @@
         /* PARTICLE */
         .circle1 {
             position: absolute;
-            margin-left: 600px;
-            bottom: 500px;
-            height: 80px;
-            width: 80px;
+            margin-left: 45%;
+            bottom: 70%;
+            height: 5rem;
+            width: 5rem;
             border-radius: 100px;
             transition: 1s;
             box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
@@ -21,9 +21,9 @@
         .circle2 {
             position: absolute;
             margin-left: 45%;
-            bottom: 100px;
-            height: 100px;
-            width: 100px;
+            bottom: 1%;
+            height: 6rem;
+            width: 6rem;
             border-radius: 100px;
             transition: 1s;
             box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
@@ -34,9 +34,9 @@
         .circle3 {
             position: absolute;
             margin-left: 90%;
-            bottom: 400px;
-            height: 80px;
-            width: 80px;
+            bottom: 60%;
+            height: 5rem;
+            width: 5rem;
             border-radius: 100px;
             transition: 1s;
             box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
@@ -47,9 +47,9 @@
         .square1 {
             position: absolute;
             margin-left: 8%;
-            bottom: 400px;
-            height: 80px;
-            width: 15px;
+            bottom: 60%;
+            height: 4.5rem;
+            width: 0.9rem;
             transition: 1s;
             box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
             background: rgb(234, 154, 34);
@@ -59,9 +59,9 @@
         .square2 {
             position: absolute;
             margin-left: 15%;
-            bottom: 100px;
-            height: 10px;
-            width: 10px;
+            bottom: 7%;
+            height: 0.8rem;
+            width: 0.8rem;
             transition: 1s;
             box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
             background: rgb(40, 195, 189);
@@ -71,9 +71,9 @@
         .square3 {
             position: absolute;
             margin-left: 47%;
-            bottom: 350px;
-            height: 10px;
-            width: 10px;
+            bottom: 50%;
+            height: 0.8rem;
+            width: 0.8rem;
             transition: 1s;
             box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
             background: rgb(40, 195, 189);
@@ -83,9 +83,9 @@
         .square4 {
             position: absolute;
             margin-left: 90%;
-            bottom: 100px;
-            height: 75px;
-            width: 15px;
+            bottom: 25%;
+            height: 4.5rem;
+            width: 0.9rem;
             transition: 1s;
             box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
             background: rgb(234, 154, 34);
