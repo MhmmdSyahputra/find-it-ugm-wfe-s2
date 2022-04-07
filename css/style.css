@@ -5,6 +5,19 @@
 
 
         /* PARTICLE */
+       
+        .all-particle{
+            margin-top: -11%;
+            width: 96%;
+            height: 100%; 
+            overflow-x: scroll;
+            overflow-y: hidden;
+            position: absolute;
+           
+        }
+        .all-particle::-webkit-scrollbar {
+            width: 0px;
+        }
         .circle1 {
             position: absolute;
             margin-left: 45%;
