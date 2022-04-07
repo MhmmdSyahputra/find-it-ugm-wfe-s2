@@ -144,20 +144,12 @@
 
         /* End NavBar Ketika di sorot */
 
-        .kotak-about-find-it {
-            position: relative;
-            z-index: 1;
-            top: 0;
-            width: 700px;
-            height: 500px;
-            left: 500px;
-        }
 
         .about-find-it {
-            position: absolute;
-            top: 900px;
-            z-index: 2;
-            left: 580px;
+            border-radius: 10px;
+            padding: 80px 60px 80px 60px;
+            background-image: url(../img/kotak.png);
+            margin-left: 5%;
         }
 
         .about-find-it H1,
@@ -193,29 +185,10 @@
             font-size: 0.9em;
         }
 
-        .kotak-hackathon {
-            background-color: #181C23;
-            position: relative;
-            border: 2px solid #00FFCE;
-            z-index: 1;
-            margin-left: 24.5%;
-            top: 60px;
-            width: 700px;
-            height: 350px;
-        }
-
         .hackathon {
-            width: 25%;
-            position: absolute;
-            bottom: -1300px;
-            z-index: 2;
-            left: 50%;
-        }
-        .hackathon img{
-            position: absolute;
-            bottom: -30px;
-            z-index: 2;
-            left: -90%;
+            background-image: url(../img/kotak.png);
+            padding: 80px 40px 80px 40px;
+            border: 2px solid #00FFCE;
         }
 
         .hackathon h1{
