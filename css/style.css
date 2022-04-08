@@ -49,14 +49,14 @@
             background-image: url(../img/kotak.png);
         }
 
-        .about-find-it H1,
+        .about-find-it, .find-it-in-about H1,
         .future {
             color: #E8E9E9;
             font-weight: bold;
             text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
         }
 
-        .about-find-it p{
+        .about-find-it, .find-it-in-about, .evo-verse p{
             font-size: 0.8em;
             color: #E8E9E9;
         }

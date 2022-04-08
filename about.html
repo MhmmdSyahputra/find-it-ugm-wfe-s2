@@ -16,10 +16,59 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- css eksternal -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Find IT! 2022</title>
+    <style>
+        .evo-box {
+
+            padding: 20px;
+            background-image: linear-gradient(180deg, #11161C, #1D2228);
+            border-width: 4px;
+            border-style: solid;
+            border-image: linear-gradient(27deg, rgba(17, 145, 250, 1) 22%, rgba(176, 45, 167, 1) 75%);
+            border-image-slice: 1;
+        }
+
+
+        .evo-box h1 {
+            font-weight: bold;
+            color: #FFFFFF;
+            text-shadow: 0 0 10px #32301B, 2px 2px 2px rgba(206, 89, 55, 0);
+        }
+
+        .evo-box label {
+            font-size: 1.4rem;
+            font-weight: 700;
+            background: #C0597B;
+            background: -webkit-linear-gradient(to top, #C0597B 0%, #C68637 67%);
+            background: -moz-linear-gradient(to top, #C0597B 0%, #C68637 67%);
+            background: linear-gradient(to top, #C0597B 0%, #C68637 67%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .image-galeri {
+            margin-bottom: 300px;
+            padding: 30px 20px 30px 20px;
+            background-color: #20252B;
+            border-width: 3px;
+            border-style: solid;
+            border-image: linear-gradient(180deg, rgba(0, 255, 206, 1) 0%, rgba(35, 227, 205, 1) 39%, rgba(233, 68, 202, 1) 73%);
+            border-image-slice: 1;
+        }
+
+        .image-galeri h2 {
+            background: #A4DF49;
+            background: -webkit-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+            background: -moz-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+            background: linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,7 +90,7 @@
                         <a class="nav-link home mx-2" aria-current="page" href="index.html">
                             <i class="fa-solid fa-house"></i>&nbsp;Home
                         </a>
-                        <a class="nav-link webinar mx-2" href="webinar.html">
+                        <a class="nav-link webinar  mx-2" href="webinar.html">
                             <i class="fa-solid fa-comments"></i>&nbsp;Webinar
                         </a>
                         <a class="nav-link compe mx-2" href="competition.html">
@@ -65,239 +114,82 @@
 
         <!-- =========CONTENT PERTAMA========= -->
         <div style="height: 100%; padding: 50px 10px 80px 10px; background-color: #030203;">
-            <div class="all-particle">
-                <!-- PATICLE OBJEK -->
-                <div id='circle1' class="circle1"></div>
-                <div id='circle2' class="circle2"></div>
-                <div id='circle3' class="circle3"></div>
 
-                <div id='square1' class="square1"></div>
-                <div id='square2' class="square2"></div>
-                <div id='square3' class="square3"></div>
-                <div id='square4' class="square4"></div>
-                <!-- END PATICLE OBJEK -->
-            </div>
+            <div class="container ">
 
+                <!-- ROW PERTAMA -->
+                <div class="row d-flex justify-content-center align-items-center find-it-in-about"
+                    style="margin-bottom: 150px;">
+                    <div class="col-md-6 mx-5" data-aos="fade-right" data-aos-duration="2000">
+                        <h1>Find IT!</h1>
+                        Future Innovations and Discovery IT
+                        <p class="text-justify">
+                            FIND IT atau kependekan dari Future Innovation and Discovery Information and Technology,
+                            merupakan sebuah acara/event tahunan yang diselenggarakan oleh DTETI FT UGM dimana pada
+                            event ini terdapat beberapa acara diantaranya webinar dan lomba-lomba seperti Competitive
+                            Programming, Data Analytics Competition, Hackathon, Capture the Flag, dan E-sport. Event ini
+                            bertujuan untuk mengembangkan dan memberi wadah bagi masyarakat yang tertarik ke dunia
+                            TI serta menarik minat sekaligus memperkenalkan TI ke masyarakat luas; apalagi di tengah era
+                            revolusi 5.0 dimana teknologi berkembang sangat pesat.
+                        </p>
+                    </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <div class="row">
-                            <div class="col-md-6 my-auto  text-center">
-                                <img src="img/find-it-sub-head.webp" alt="find-it.id" style="width: 45%;"
-                                    class="mt-5 img-fluid">
-                            </div>
-                            <div class="col-md-6 my-auto  p-2  text-center">
-                                <video preload="auto" style="width: 100%;" loop autoplay>
-                                    <source src="hero/mascotAnimate1.webm" type="video/webm">
-                                </video>
-                            </div>
+                    <div class="col-md-3 ">
+                        <img src="img/logo-about.webp" width="100%" alt="">
+                    </div>
+
+                </div>
+                <!-- ROW PERTAMA -->
+
+                <!-- ROW KEDUA -->
+                <div class="row d-flex justify-content-center  align-items-center evo-verse"
+                    style="margin-bottom: 150px;">
+
+                    <div class="col-md-3">
+                        <video preload="auto" style="width: 100%;" loop autoplay>
+                            <source src="hero/mascotAnimate1.webm" type="video/webm">
+                        </video>
+                    </div>
+
+                    <div class="col-md-6 mx-5">
+                        <div class="evo-box mb-3" data-aos="flip-up" data-aos-duration="2000">
+                            <h1>EVO VERSE</h1>
+                            <label>Reimagining The World</label>
                         </div>
+
+                        <p class="text-justify" data-aos="fade-up" data-aos-duration="2000">
+                            Find IT! 2022 hadir dengan tema “Evoverse : Reimagining the world”. Terdiri dari kata "evo"
+                            yang merupakan singkatan
+                            dari evolution dan kata "verse" yang merupakan singkatan dari universe. Evoverse dapat
+                            diartikan sebagai perkembangan
+                            teknologi yang meluas dan terus menerus. Sementara itu Reimagining the World memiliki maksud
+                            membawa kita membayangkan
+                            dan melakukan perubahan terhadap dunia yang kita tinggali ini dikarenakan situasi dan
+                            kondisi yang terus berubah.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- ROW KEDUA -->
+
+                <!-- ROW KETIGA -->
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-md-7 image-galeri text-center">
+                        <h2>Image Galeri</h2>
                     </div>
                 </div>
+                <!-- ROW KETIGA -->
+
             </div>
-            <!-- END IMAGE FIND IT -->
         </div>
         <!-- =========END CONTENT PERTAMA========= -->
 
-
-        <!-- IMAGE SEPERI PERMBATAS -->
-        <img src="img/line-t.png" style="width:100%">
-        <!-- END IMAGE SEPERI PERMBATAS -->
-
-
-        <!-- =========CONTENT KEDUA========= -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #EDEDED;">
-
-            <!-- PEMBUNGKUS ABOUT FIND IT -->
-            <div class="container">
-                <div class="row p-2">
-
-                    <div class="col-md-4 my-auto  text-center">
-                        <!-- LOGO F -->
-                        <img src="img/logo.svg" data-aos="zoom-out" data-aos-duration="1000" class="logo" width="330">
-                        <!-- END LOGO F -->
-                    </div>
-
-                    <div class="col-md-6 about-find-it" data-aos="zoom-in-up" data-aos-duration="1000">
-                        <div style="color: #FFFFFF;" class="isi-kotak">
-                            <!-- TITLE & SUB-->
-                            <div class="title mb-5">
-                                <h1>ABOUT FIND IT!</h1>
-                                <div class="row" style="height: 10px;">
-                                    <div class="col-md-5">
-                                        <p style="width: 180px; border: 1px solid #FFFFFF;">
-                                    </div>
-                                    <div class="col-md-14 mx-3 d-flex">
-                                        <label class="future"
-                                            style="margin-left: 170px; margin-top: -26px; font-size: 0.7em;">
-                                            Future Innovation and Discovery IT
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END TITLE & SUB-->
-
-                            <p>
-                                FIND IT! (Future Innovations and Discovery IT) merupakan sebuah kompetisi tingkat
-                                nasional
-                                di bidang Teknologi Informasi. FIND IT! merupakan acara yang bertujuan untuk
-                                mengeksplorasi
-                                dan mengedukasi publik mengenai berbagai macam elemen di bidang teknologi informasi.
-                                FIND
-                                IT! terdiri dari berbagai rangkaian acara, antara lain Hackathon, Competitive
-                                Programming,
-                                Data Analytics Competition, Esports Competition, Capture The Flag Competition dan
-                                Webinar
-                                Nasional.
-                            </p>
-
-                            <!-- BTN SEE MORE -->
-                            <button class="btn btn-see-more-about-find-it mt-2"
-                                style="background-color: #00FFCE; width: 200px; height: 50px;">
-                                See more
-                            </button>
-                            <!-- END BTN SEE MORE -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- END PEMBUNGKUS TEST ABOUT FIND IT -->
-        </div>
-        <!-- =========END CONTENT KEDUA========= -->
-
         <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-t-flip.png" style="width:100%">
-        <!-- END IMAGE SEPERTI PEMBATAS -->
-
-        <!-- =========CONTENT KETIGA========= -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #0F1319;">
-
-            <!-- TEXT COMPETITION -->
-            <div class="container">
-                <div class="row d-flex justify-content-center text-center">
-                    <div class="col-md-4">
-                        <h1 class="competition" data-aos="fade-down" data-aos-duration="1000">Competition</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- END TEXT COMPETITION -->
-
-            <!-- SUB FROM COMPETITION -->
-            <div class="container">
-                <div class="row d-flex justify-content-center mb-5">
-                    <div class="col-md-6 more-in-comp text-center">
-                        <span class="mx-3">
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE PRIZE
-                            </label>
-                        </span>
-                        <span class="mx-3">
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE EXCEPTIONAL
-                            </label>
-                        </span>
-                        <span>
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE CHALLENGING
-                            </label>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- END SUB FROM COMPETITION -->
-
-            <!-- HACKATHON CONTENT -->
-            <div class="container">
-                <div class=" row d-flex justify-content-center">
-                    <div class="col-md-8">
-                        <div class="hackathon row d-flex justify-content-center" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
-                            <div class="col-md-4 mx-5 ">
-                                <img src="img/Hackathon.webp" data-aos="zoom-in-up" data-aos-duration="1000" width="250"
-                                    alt="Hackathon">
-                            </div>
-                            <div class=" col-md-6 my-3">
-                                <div data-aos="fade-down-left" data-aos-duration="1000">
-                                    <h1 class="mb-4">Hackathon</h1>
-                                    <p class="mb-4">
-                                        Hackathon yang merupakan gabungan dari dua kata yaitu hack dan marathon adalah
-                                        kompetisi
-                                        ...
-                                    </p>
-                                    <button class="btn btn-see-more-hackathon">See More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END HACKATHON CONTENT -->
-
-            <!-- GALERI -->
-            <div style="margin-top: 90px; margin-bottom: 300px;">
-
-            </div>
-            <!-- ENDGALERI -->
-
-            <!-- SECTION WEBINAR -->
-            <div class="container">
-                <div class="row d-flex justify-content-center webinar-sec">
-
-                    <div class="col-md-6">
-                        <img src="img/Webinar.webp" width="550" class="img-fluid" alt="Webinar" data-aos="zoom-in-up"
-                            data-aos-duration="1500">
-                    </div>
-
-                    <div class="col-md-5">
-                        <h1 style="margin-top: 170px;" class="mb-5" data-aos="zoom-in-up" data-aos-duration="1500">
-                            Webinar
-                        </h1>
-                        <div data-aos="zoom-in-down" data-aos-duration="1500">
-                            <p class="mb-5">
-                                Bertujuan menjadi sarana persiapan menghadapi konsep lingkungan virtual yang dianggap
-                                sebagai "ladang baru" dalam IT yang masih penuh dengan kesempatan untuk berkembang
-                            </p>
-                            <button class="btn btn-see-more-webinar-sec">See More</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- END SECTION WEBINAR -->
-        </div>
-        <!-- =========END CONTENT KETIGAS========= -->
-
-        <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-b.png" width="100%" alt="">
-        <!-- END IMAGE SEPERTI PEMBATAS -->
-
-        <!-- CONTENT KEEMPAT -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #EDEDED;">
-            <!-- MEDIA PARTNER -->
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1500">
-                        <h1>Media Partner</h1>
-                        <img src="img/Google-UGM.jfif" alt="google-dsc-ugml" class="mx-4" width="100">
-                        <img src="img/HIMSI.png" alt="himsi" class="mx-4" width="100">
-                    </div>
-                </div>
-            </div>
-            <!-- END MEDIA PARTNER -->
-        </div>
-        <!-- END CONTENT KEEMPAT -->
-
-        <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-b-flip.png" width="100%" alt="">
+        <img src="img/line-b-flip.png" style="margin-top: -145px;" width="100%" alt="">
         <!-- END IMAGE SEPERTI PEMBATAS -->
 
         <!-- CONTENT KELIMA -->
-        <div style="height: 100%; padding: 30px 10px 30px 10px; background-color: #20252B;">
+        <div style="height: 100%; margin-top: -10px; padding: 30px 10px 30px 10px; background-color: #20252B;">
             <div class="container p-5 ">
                 <div class="row d-flex justify-content-center" style="color: #EDEDED;">
                     <div class="col-md-3 p-4 m-auto">
