@@ -19,113 +19,6 @@
     <!-- css eksternal -->
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        /* PARTICLE */
-
-        .all-particle {
-            margin-top: -6%;
-            width: 96%;
-            height: 100%;
-            overflow-x: scroll;
-            overflow-y: hidden;
-            position: absolute;
-
-        }
-
-        .all-particle::-webkit-scrollbar {
-            width: 0px;
-        }
-
-        .circle1 {
-            position: absolute;
-            margin-left: 45%;
-            bottom: 70%;
-            height: 5rem;
-            width: 5rem;
-            border-radius: 100px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-        .circle2 {
-            position: absolute;
-            margin-left: 45%;
-            bottom: 1%;
-            height: 6rem;
-            width: 6rem;
-            border-radius: 100px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .circle3 {
-            position: absolute;
-            margin-left: 90%;
-            bottom: 60%;
-            height: 5rem;
-            width: 5rem;
-            border-radius: 100px;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square1 {
-            position: absolute;
-            margin-left: 8%;
-            bottom: 60%;
-            height: 4.5rem;
-            width: 0.9rem;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-        .square2 {
-            position: absolute;
-            margin-left: 15%;
-            bottom: 7%;
-            height: 0.8rem;
-            width: 0.8rem;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square3 {
-            position: absolute;
-            margin-left: 47%;
-            bottom: 50%;
-            height: 0.8rem;
-            width: 0.8rem;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(40, 195, 189), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(40, 195, 189);
-            background: linear-gradient(211deg, rgba(40, 195, 189, 1) 32%, rgba(132, 59, 152, 1) 66%);
-        }
-
-        .square4 {
-            position: absolute;
-            margin-left: 90%;
-            bottom: 25%;
-            height: 4.5rem;
-            width: 0.9rem;
-            transition: 1s;
-            box-shadow: 0 0 10px rgb(234, 154, 34), 2px 2px 2px rgba(206, 89, 55, 0);
-            background: rgb(234, 154, 34);
-            background: linear-gradient(196deg, rgba(234, 154, 34, 1) 32%, rgba(193, 53, 100, 1) 66%);
-        }
-
-        /* END PARTICLE */
-    </style>
-
     <title>Find IT! 2022</title>
 </head>
 
@@ -144,14 +37,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link home active mx-2" aria-current="page" href="index.html">
+                    <div class="navbar-nav ms-auto justify-content-center">
+                        <a class="nav-link home mx-2" aria-current="page" href="index.html">
                             <i class="fa-solid fa-house"></i>&nbsp;Home
                         </a>
                         <a class="nav-link webinar mx-2" href="webinar.html">
                             <i class="fa-solid fa-comments"></i>&nbsp;Webinar
                         </a>
-                        <a class="nav-link compe mx-2" href="competition.html">
+                        <a class="nav-link compe active mx-2" href="competition.html">
                             <i class="fa-solid fa-trophy"></i>&nbsp;Competition
                         </a>
                         <a class="nav-link about mx-2" href="about.html">
@@ -172,7 +65,6 @@
 
         <!-- =========CONTENT PERTAMA========= -->
         <div style="height: 100%; padding: 50px 10px 80px 10px; background-color: #030203;">
-
             <div class="all-particle">
                 <!-- PATICLE OBJEK -->
                 <div id='circle1' class="circle1"></div>
