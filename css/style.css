@@ -114,9 +114,10 @@ body::-webkit-scrollbar {
  }
 
 .hackathon {
-    background-image: url(../img/kotak.png);
+    background-image: url(../img/kotak3.png);
     padding: 80px 40px 80px 40px;
-    border: 2px solid #00FFCE;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hackathon h1{
@@ -137,6 +138,15 @@ body::-webkit-scrollbar {
 }
 .hackathon button:hover {
     background-color: #00FFCE;
+}
+
+.galeri-comp div{
+    font-size: 0.8em;
+    text-align: center;
+    color: #EDEDED;
+    width: 120px; 
+    height: 120px; 
+    background-color: #20252B;
 }
 
 .webinar-sec h1{
