@@ -48,6 +48,7 @@ body::-webkit-scrollbar {
     padding: 80px 60px 80px 60px;
     background-image: url(../img/kotak2.png);
     background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -109,7 +110,7 @@ body::-webkit-scrollbar {
      padding-left: 5px;
      border-left: 5px solid #FFCE00;
      background: rgb(255,206,0);
-background: linear-gradient(90deg, rgba(255,206,0,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
+     background: linear-gradient(90deg, rgba(255,206,0,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
  }
 
 .hackathon {
