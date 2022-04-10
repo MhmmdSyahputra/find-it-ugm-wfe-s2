@@ -1,136 +1,166 @@
 
-        body {
-            background-color: #EDEDED;
-        }
+ body {
+    background-color: #EDEDED;
+}
 
 
-        /* SCROLL CUSTOM */
-        body::-webkit-scrollbar {
-            width: 0.5em;
-        }
+  /* SCROLL CUSTOM */
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
 
-        body::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        }
+ body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
 
-        body::-webkit-scrollbar-thumb {
-            border-radius: 30px;
-            background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
-            outline: 1px solid slategrey;
-        }
-          /* END SCROLL CUSTOM */
-        
-
-        /* NavBar Ketika di sorot */
-        .active {
-            border-bottom: 2px solid #00FFCE;
-        }
-        .webinar:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        .compe:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        .about:hover {
-            border-bottom: 2px solid #00FFCE;
-            transition: 0.1s;
-        }
-
-        /* End NavBar Ketika di sorot */
+ body::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, #D0368A 0%, #708AD4 99%);
+    outline: 1px solid slategrey;
+}
+  /* END SCROLL CUSTOM */
 
 
-        .about-find-it {
-            border-radius: 10px;
-            padding: 80px 60px 80px 60px;
-            background-image: url(../img/kotak.png);
-        }
+ /* NavBar Ketika di sorot */
+.active {
+    border-bottom: 2px solid #00FFCE;
+}
+.webinar:hover {
+    border-bottom: 2px solid #00FFCE;
+    transition: 0.1s;
+}
 
-        .about-find-it, .find-it-in-about H1,
-        .future {
-            color: #E8E9E9;
-            font-weight: bold;
-            text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
-        }
+ .compe:hover {
+    border-bottom: 2px solid #00FFCE;
+    transition: 0.1s;
+}
 
-        .about-find-it, .find-it-in-about, .evo-verse p{
-            font-size: 0.8em;
-            color: #E8E9E9;
-        }
+ .about:hover {
+    border-bottom: 2px solid #00FFCE;
+    transition: 0.1s;
+}
 
-        .btn-see-more-about-find-it {
-            box-shadow: 0 0 10px #00FFCE, 2px 19px 20px rgba(0, 255, 206, 0);
-        }
+ /* End NavBar Ketika di sorot */
 
-        .competition {
-            font-weight: bold;
-            text-transform: uppercase;
-            padding-top: 150px;
-            font-size: 3em;
-            text-align: center;
-            color: #00FFCE;
-            text-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
-        }
 
-        .more-in-comp {
-            text-transform: uppercase;
-            font-weight: bold;
-            color: #FFFFFF;
-            font-size: 0.9em;
-        }
+.about-find-it {
+    border-radius: 10px;
+    padding: 80px 60px 80px 60px;
+    background-image: url(../img/kotak2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-        .hackathon {
-            background-image: url(../img/kotak.png);
-            padding: 80px 40px 80px 40px;
-            border: 2px solid #00FFCE;
-        }
+.about-find-it, .find-it-in-about H1,
+.future {
+    color: #E8E9E9;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
+}
 
-        .hackathon h1{
-            font-weight: bold;
-            color: #00FFCE;
-        }
+.about-find-it, .find-it-in-about, .evo-verse p{
+    font-size: 0.8em;
+    color: #E8E9E9;
+}
 
-        .hackathon p {
-            font-size: 0.8em;
-            color: #E8E9E9;
-        }
+.btn-see-more-about-find-it {
+    box-shadow: 0 0 10px #00FFCE, 2px 19px 20px rgba(0, 255, 206, 0);
+}
 
-        .hackathon button {
-            width: 150px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
-            color: #FFFFFF;
-        }
-        .hackathon button:hover {
-            background-color: #00FFCE;
-        }
+.competition {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 150px;
+    font-size: 3em;
+    text-align: center;
+    color: #00FFCE;
+    margin-bottom: -10px;
+    text-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
+}
 
-        .webinar-sec h1{
-            font-weight: bold;
-            text-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
-            color: #FFCE00;
-        }
+.head-comp label{
+    margin-bottom: 40px;
+    border-left: 70px solid #00FFCE;
+    background-color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.6em;
+}
 
-        .webinar-sec p{
-            font-size: 0.8em;
-            color: #E8E9E9;
-        }
+.more-in-comp {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+.more-in-comp .prize label {
+     padding-left: 5px;
+     border-left: 5px solid #00FFCE;
+     background: rgb(0,255,206);
+     background: linear-gradient(90deg, rgba(0,255,206,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
+ }
+.more-in-comp .exce label {
+     padding-left: 5px;
+     border-left: 5px solid #AC0088;
+     background: rgb(0,255,206);
+     background: linear-gradient(280deg, rgba(0,255,206,0) 37%, rgba(233,68,202,0.8463760504201681) 73%);
+ }
+.more-in-comp .chall label {
+     padding-left: 5px;
+     border-left: 5px solid #FFCE00;
+     background: rgb(255,206,0);
+background: linear-gradient(90deg, rgba(255,206,0,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
+ }
 
-        .webinar-sec button{
-            width: 200px; 
-            height: 50px;
-            box-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
-            background-color: #FFCE00;
-        }
+.hackathon {
+    background-image: url(../img/kotak.png);
+    padding: 80px 40px 80px 40px;
+    border: 2px solid #00FFCE;
+}
 
-        footer{
-            font-size: 0.6em;
-            color: #EDEDED;
-            font-weight: bold;
-            height: 100%; 
-            background: rgb(115,66,123);
-            background: linear-gradient(288deg, rgba(115,66,123,1) 21%, rgba(76,99,124,1) 57%, rgba(30,135,125,1) 100%);
-        }
+.hackathon h1{
+    font-weight: bold;
+    color: #00FFCE;
+}
+
+.hackathon p {
+    font-size: 0.8em;
+    color: #E8E9E9;
+}
+
+.hackathon button {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
+    color: #FFFFFF;
+}
+.hackathon button:hover {
+    background-color: #00FFCE;
+}
+
+.webinar-sec h1{
+    font-weight: bold;
+    text-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
+    color: #FFCE00;
+}
+
+.webinar-sec p{
+    font-size: 0.8em;
+    color: #E8E9E9;
+}
+
+.webinar-sec button{
+    width: 200px; 
+    height: 50px;
+    box-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
+    background-color: #FFCE00;
+}
+
+footer{
+    font-size: 0.6em;
+    color: #EDEDED;
+    font-weight: bold;
+    height: 100%; 
+    background: rgb(115,66,123);
+    background: linear-gradient(288deg, rgba(115,66,123,1) 21%, rgba(76,99,124,1) 57%, rgba(30,135,125,1) 100%);
+}
