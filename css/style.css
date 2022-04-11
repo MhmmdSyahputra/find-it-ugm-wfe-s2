@@ -144,6 +144,7 @@ body::-webkit-scrollbar {
     font-size: 0.8em;
     text-align: center;
     color: #EDEDED;
+    cursor: pointer;
     width: 120px; 
     height: 120px; 
     background-color: #20252B;
@@ -165,6 +166,15 @@ body::-webkit-scrollbar {
     height: 50px;
     box-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
     background-color: #FFCE00;
+}
+
+.text-stroke {
+    font-size: 80px;
+    background: -webkit-linear-gradient(180deg, rgba(255,206,0,0.9164040616246498) 0%, rgba(255,206,0,0.28895308123249297) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    -webkit-text-fill-color: #EDEDED;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 footer{
