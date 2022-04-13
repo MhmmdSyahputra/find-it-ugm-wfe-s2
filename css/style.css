@@ -113,30 +113,72 @@ body::-webkit-scrollbar {
      background: linear-gradient(90deg, rgba(255,206,0,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
  }
 
-.hackathon {
-    background-image: url(../img/kotak3.png);
-    padding: 80px 40px 80px 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.slider{
+    overflow: hidden;
+    width: 70%;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-.hackathon h1{
+.slides{
+    display: flex;
+    height: 100%;
+}
+
+.slide{
+    background-image: url(../img/kotak3.png);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.slide img{
+    margin-right: 60px;
+}
+
+.trigger-slide:hover{
+    background: #00FFCE;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+#radio5:checked ~ .first{
+    margin-left: -400%;
+}
+
+.slide h1{
+    margin-top: 25px;
+    font-size: 2em;
     font-weight: bold;
     color: #00FFCE;
 }
 
-.hackathon p {
+.slide p {
     font-size: 0.8em;
     color: #E8E9E9;
 }
 
-.hackathon button {
+.slide button {
     width: 150px;
     border-radius: 10px;
     box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
     color: #FFFFFF;
 }
-.hackathon button:hover {
+.slide button:hover {
     background-color: #00FFCE;
 }
 
