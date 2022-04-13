@@ -178,11 +178,9 @@ body::-webkit-scrollbar {
     box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
     color: #FFFFFF;
 }
-.slide button:hover {
-    background-color: #00FFCE;
-}
 
 .galeri-comp div{
+    border-radius: 10px;
     font-size: 0.8em;
     text-align: center;
     color: #EDEDED;
@@ -191,6 +189,12 @@ body::-webkit-scrollbar {
     height: 120px; 
     background-color: #20252B;
 }
+
+.galeri-comp :hover {
+    background-color: #00FFCE;
+    color: black;
+}
+
 
 .webinar-sec h1{
     font-weight: bold;
