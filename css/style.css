@@ -140,9 +140,6 @@ body::-webkit-scrollbar {
     margin-right: 60px;
 }
 
-.trigger-slide:hover{
-    background: #00FFCE;
-}
 
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -179,22 +176,24 @@ body::-webkit-scrollbar {
     color: #FFFFFF;
 }
 
-.galeri-comp div{
+.galeri-comp label{
     border-radius: 10px;
     font-size: 0.8em;
     text-align: center;
     color: #EDEDED;
     cursor: pointer;
     width: 120px; 
+    margin: 2px;
     height: 120px; 
     background-color: #20252B;
 }
 
+/* SAAT DI SOROR */
 .galeri-comp :hover {
+    border-radius: 10px;
     background-color: #00FFCE;
     color: black;
 }
-
 
 .webinar-sec h1{
     font-weight: bold;
