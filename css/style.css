@@ -11,7 +11,6 @@
     src: url('../font/piximisa/Piximisa\ \(1\).ttf');
 }
  body {
-     
     font-family: Montserrat, 'Courier New', Courier, monospace;
     background-color: #EDEDED;
 }
@@ -38,25 +37,30 @@ body::-webkit-scrollbar {
 .active {
     border-bottom: 2px solid #00FFCE;
 }
-.webinar:hover {
+header .webinar:hover,
+header .home:hover,
+header .compe:hover,
+header .about:hover {
     border-bottom: 2px solid #00FFCE;
     transition: 0.1s;
 }
-
- .compe:hover {
-    border-bottom: 2px solid #00FFCE;
-    transition: 0.1s;
-}
-
- .about:hover {
-    border-bottom: 2px solid #00FFCE;
-    transition: 0.1s;
-}
-
  /* End NavBar Ketika di sorot */
 
+/* NOTE */
+/* .first-content-index => content pertama yg di halaman index */
+/* .second-content-index => content kedua yg di halaman index */
+/* .third-content-index => content ketiga yg di halaman index */
+/* .fourth-content-index => content keempat yg di halaman index */
+/* .footer-content-index => content footer yg di halaman index */
 
-.about-find-it {
+/* .first-content-webinar => content pertama yg di halaman webinar */
+/* dst */
+
+/* .first-content-about => content pertama yg di halaman about */
+/* dst */
+
+
+.second-content-index .about-find-it {
     border-radius: 10px;
     padding: 80px 60px 80px 60px;
     background-image: url(../img/kotak2.png);
@@ -65,23 +69,26 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
 }
 
-.about-find-it H1, .find-it-in-about H1{
+.second-content-index .about-find-it H1, 
+.first-content-about .find-it-in-about H1{
     font-weight: 2000;
     font-family: Piximisa, Courier, monospace;
     color: #FFFFFF;
     text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
 }
 
-.about-find-it, .find-it-in-about, .evo-verse p{
+.second-content-index .about-find-it, 
+.first-content-about .find-it-in-about, 
+.first-content-about .evo-verse p{
     font-size: 0.8em;
     color: #E8E9E9;
 }
 
-.btn-see-more-about-find-it {
+.second-content-index .btn-see-more-about-find-it {
     box-shadow: 0 0 10px #00FFCE, 2px 19px 20px rgba(0, 255, 206, 0);
 }
 
-.competition {
+.third-content-index .competition {
     letter-spacing: 3px;
     font-family: Piximisa;
     font-weight: bold;
@@ -94,7 +101,7 @@ body::-webkit-scrollbar {
     text-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
 }
 
-.head-comp label{
+.third-content-index .head-comp label{
     font-family: montserrat-bold;
     margin-bottom: 40px;
     border-left: 70px solid #00FFCE;
@@ -104,32 +111,34 @@ body::-webkit-scrollbar {
     font-size: 0.6em;
 }
 
-.more-in-comp {
+.third-content-index .more-in-comp {
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
     font-size: 0.9em;
 }
-.more-in-comp .prize label {
+
+
+.third-content-index .more-in-comp .prize label {
      padding-left: 5px;
      border-left: 5px solid #00FFCE;
      background: rgb(0,255,206);
      background: linear-gradient(90deg, rgba(0,255,206,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
  }
-.more-in-comp .exce label {
+.third-content-index .more-in-comp .exce label {
      padding-left: 5px;
      border-left: 5px solid #AC0088;
      background: rgb(0,255,206);
      background: linear-gradient(280deg, rgba(0,255,206,0) 37%, rgba(233,68,202,0.8463760504201681) 73%);
  }
-.more-in-comp .chall label {
+.third-content-index .more-in-comp .chall label {
      padding-left: 5px;
      border-left: 5px solid #FFCE00;
      background: rgb(255,206,0);
      background: linear-gradient(90deg, rgba(255,206,0,0.8267682072829132) 37%, rgba(233,68,202,0) 73%);
  }
 
-.slider{
+.third-content-index .slider{
     overflow: hidden;
     width: 70%;
     height: 370px;
@@ -137,12 +146,12 @@ body::-webkit-scrollbar {
     margin-bottom: 50px;
 }
 
-.slides{
+.third-content-index .slides{
     display: flex;
     height: 100%;
 }
 
-.slide{
+.third-content-index .slide{
     background-image: url(../img/kotak3.png);
     background-size: contain;
     background-size: cover;
@@ -152,56 +161,56 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
-.slide h1{
+.third-content-index .slide h1{
     font-family: montserrat-bold;
 }
 
-.slide img{
+.third-content-index .slide img{
     margin-right: 60px;
 }
 
 
-#radio1:checked ~ .first{
+.third-content-index #radio1:checked ~ .first{
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+.third-content-index #radio2:checked ~ .first{
     margin-left: -100%;
 }
-#radio3:checked ~ .first{
+.third-content-index #radio3:checked ~ .first{
     margin-left: -200%;
 }
-#radio4:checked ~ .first{
+.third-content-index #radio4:checked ~ .first{
     margin-left: -300%;
 }
-#radio5:checked ~ .first{
+.third-content-index #radio5:checked ~ .first{
     margin-left: -400%;
 }
 
-.slide h1{
+.third-content-index .slide h1{
     margin-top: 25px;
     font-size: 2em;
     font-weight: bold;
     color: #00FFCE;
 }
 
-.slide p {
+.third-content-index .slide p {
     font-size: 0.8em;
     color: #E8E9E9;
 }
 
-.slide button {
+.third-content-index .slide button {
     width: 150px;
     border-radius: 10px;
     box-shadow: 0 0 10px #00FFCE, 2px 2px 2px rgba(206, 89, 55, 0);
     color: #FFFFFF;
 }
 
-.galeri-comp .col-md-2{
+.third-content-index .galeri-comp .col-md-2{
      width: 120px; 
     height: 120px; 
 }
 
-.galeri-comp label{
+.third-content-index .galeri-comp label{
     border-radius: 10px;
     font-size: 0.8em;
     text-align: center;
@@ -214,25 +223,25 @@ body::-webkit-scrollbar {
 }
 
 /* SAAT DI SOROR */
-.galeri-comp div :hover {
+.third-content-index .galeri-comp div :hover {
     border-radius: 10px;
     background-color: #00FFCE;
     color: black;
 }
 
-.webinar-sec h1{
+.third-content-index .webinar-sec h1{
     font-family: Piximisa, Courier, monospace;
     font-size: 48px;
     text-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
     color: #FFCE00;
 }
 
-.webinar-sec p{
+.third-content-index .webinar-sec p{
     font-size: 0.8em;
     color: #E8E9E9;
 }
 
-.webinar-sec button{
+.third-content-index .webinar-sec button{
     width: 200px; 
     height: 50px;
     box-shadow: 0 0 10px #FFCE00, 2px 2px 2px rgba(206, 89, 55, 0);
@@ -248,7 +257,7 @@ body::-webkit-scrollbar {
     font-family: Piximisa, Courier, monospace;
 }
 
-.media-part h1{
+.fourth-content-index .media-part h1{
     font-family: Piximisa, Courier, monospace;
     font-size: 40px;
 }
