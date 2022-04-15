@@ -248,6 +248,11 @@ header .about:hover {
     background-color: #FFCE00;
 }
 
+.fourth-content-index .media-part h1{
+    font-family: Piximisa, Courier, monospace;
+    font-size: 40px;
+}
+
 .text-stroke {
     font-size: 80px;
     background: -webkit-linear-gradient(180deg, rgba(255,206,0,0.9164040616246498) 0%, rgba(255,206,0,0.28895308123249297) 85%);
@@ -257,10 +262,58 @@ header .about:hover {
     font-family: Piximisa, Courier, monospace;
 }
 
-.fourth-content-index .media-part h1{
-    font-family: Piximisa, Courier, monospace;
-    font-size: 40px;
+.second-content-competition .col-md-4, .col-md-12{
+    border-radius: 10px;
+    border: 2px solid #10927C;
+    background-color: #20252B;
+    color: #FFFFFF;
+    font-size: 14px;
 }
+
+.second-content-competition .ctf-competition .tingkat{
+    color: #E643C7;
+    background: rgb(53,40,60);
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: montserrat-bold;
+    font-size:10px
+}
+.second-content-competition .ctf-competition .harga{
+    color: #00FFCE;
+    background: rgb(29,47,50);
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-family: montserrat-bold;
+    margin: 10px;
+    font-size:10px
+}
+.second-content-competition .ctf-competition .button-daftar button{
+    font-family: Montserrat-bold;
+    padding: 5px;
+    border-radius: 13px;
+    width: 50%;
+    background: rgb(27,234,206);
+    background: linear-gradient(196deg, rgba(27,234,206,1) 11%, rgba(221,78,203,1) 72%);
+}
+
+.second-content-competition h1{
+    font-family: Montserrat-bold;
+    font-size: 20px;
+}
+.second-content-competition .timeline .col-kiri{
+   border-right: 2px solid #2C3238;
+}
+.second-content-competition .timeline .col-kanan label{
+   margin-bottom: 100px;
+}
+.second-content-competition .timeline .col-kiri label{
+   margin-bottom: 100px;
+}
+
+.second-content-competition .timeline .col label div{
+     font-family: montserrat-bold;
+}
+
 
 .footer-content-all .footer-about h4{
     font-family: Piximisa, Courier, monospace;
@@ -271,8 +324,6 @@ header .about:hover {
 .footer-content-all .footer-about .col-md-3 div{
     font-size: 12px;
 }
-
-
 
 footer{
     font-size: 0.6em;

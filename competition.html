@@ -16,10 +16,67 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- css eksternal -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Find IT! 2022</title>
+    <style>
+        .coming-soon h1,
+        .coming-soon h2,
+        .coming-soon h3,
+        .coming-soon h4 {
+            font-family: Piximisa, Courier, monospace;
+        }
+
+        .coming-soon h5 {
+            color: #E8E9E9;
+            font-weight: bold;
+            text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
+        }
+
+        .coming-soon h1 {
+            font-weight: 1000;
+            font-size: 40px;
+            background: #E79326;
+            background: -webkit-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            background: -moz-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            background: linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .coming-soon h2 {
+            font-weight: 1000;
+            font-size: 30px;
+            filter: blur(2px);
+            background: #871E83;
+            background: -webkit-linear-gradient(to top right, #871E83 12%, #098270 88%);
+            background: -moz-linear-gradient(to top right, #871E83 12%, #098270 88%);
+            background: linear-gradient(to top right, #871E83 12%, #098270 88%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .coming-soon h3 {
+            font-weight: 1000;
+            font-size: 20px;
+            filter: blur(3px);
+            background: #E79326;
+            background: -webkit-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            background: -moz-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            background: linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .coming-soon h4 {
+            font-weight: 1000;
+            font-size: 10px;
+            color: green;
+            filter: blur(4px);
+        }
+    </style>
 </head>
 
 <body>
@@ -41,7 +98,7 @@
                         <a class="nav-link home mx-2" aria-current="page" href="index.html">
                             <i class="fa-solid fa-house"></i>&nbsp;Home
                         </a>
-                        <a class="nav-link webinar mx-2" href="webinar.html">
+                        <a class="nav-link webinar  mx-2" href="webinar.html">
                             <i class="fa-solid fa-comments"></i>&nbsp;Webinar
                         </a>
                         <a class="nav-link compe active mx-2" href="competition.html">
@@ -64,244 +121,148 @@
     <section class="content">
 
         <!-- =========CONTENT PERTAMA========= -->
-        <div style="height: 100%; padding: 50px 10px 80px 10px; background-color: #030203;">
-            <div class="all-particle">
-                <!-- PATICLE OBJEK -->
-                <div id='circle1' class="circle1"></div>
-                <div id='circle2' class="circle2"></div>
-                <div id='circle3' class="circle3"></div>
-
-                <div id='square1' class="square1"></div>
-                <div id='square2' class="square2"></div>
-                <div id='square3' class="square3"></div>
-                <div id='square4' class="square4"></div>
-                <!-- END PATICLE OBJEK -->
-            </div>
+        <div class="first-content-competition"
+            style="height: 96vh; padding: 50px 10px 80px 10px; background-color: #D1D1D1;">
 
 
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <div class="row">
-                            <div class="col-md-6 my-auto  text-center">
-                                <img src="img/find-it-sub-head.webp" alt="find-it.id" style="width: 45%;"
-                                    class="mt-5 img-fluid">
-                            </div>
-                            <div class="col-md-6 my-auto  p-2  text-center">
-                                <video preload="auto" style="width: 100%;" loop autoplay>
-                                    <source src="hero/mascotAnimate1.webm" type="video/webm">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row d-flex justify-content-center text-center my-5">
+
                 </div>
             </div>
-            <!-- END IMAGE FIND IT -->
+
         </div>
         <!-- =========END CONTENT PERTAMA========= -->
 
-
-        <!-- IMAGE SEPERI PERMBATAS -->
-        <img src="img/line-t.png" style="width:100%">
-        <!-- END IMAGE SEPERI PERMBATAS -->
-
+        <!-- IMAGE SEPERTI PEMBATAS -->
+        <img src="img/line-t-competition.svg" style="margin-top: -2.4%; position: absolute;" width="100%" alt="">
+        <!-- END IMAGE SEPERTI PEMBATAS -->
 
         <!-- =========CONTENT KEDUA========= -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #EDEDED;">
+        <div class="second-content-competition">
+            <div style="height: 150vh; padding: 50px 10px 80px 10px; background-color: #0F1319;">
+                <div class="container">
+                    <div class="row position-absolute d-flex justify-content-center text-center my-5 mx-4"
+                        style="left: 1%; margin-left: -1px; right: 1%; margin-right: -1px;">
+                        <div class="all-col col-md-10 d-flex justify-content-between">
 
-            <!-- PEMBUNGKUS ABOUT FIND IT -->
-            <div class="container">
-                <div class="row p-2">
-
-                    <div class="col-md-4 my-auto  text-center">
-                        <!-- LOGO F -->
-                        <img src="img/logo.svg" data-aos="zoom-out" data-aos-duration="1000" class="logo" width="330">
-                        <!-- END LOGO F -->
-                    </div>
-
-                    <div class="col-md-6 about-find-it" data-aos="zoom-in-up" data-aos-duration="1000">
-                        <div style="color: #FFFFFF;" class="isi-kotak">
-                            <!-- TITLE & SUB-->
-                            <div class="title mb-5">
-                                <h1>ABOUT FIND IT!</h1>
-                                <div class="row" style="height: 10px;">
-                                    <div class="col-md-5">
-                                        <p style="width: 180px; border: 1px solid #FFFFFF;">
-                                    </div>
-                                    <div class="col-md-14 mx-3 d-flex">
-                                        <label class="future"
-                                            style="margin-left: 170px; margin-top: -26px; font-size: 0.7em;">
-                                            Future Innovation and Discovery IT
-                                        </label>
-                                    </div>
+                            <div class="col-md-4 ctf-competition position-sticky m-3 ms-auto py-5"
+                                style="top:20px; height: 90vh;">
+                                <img src="img/CTF.webp" width="250" alt="">
+                                <h1 class="text-center mb-3">Capture The Flag</h1>
+                                <span class="me-2 tingkat">SLTA, Mahasiswa</span>
+                                <span class="harga">Rp. 100.000</span>
+                                <div class="button-daftar mt-3 mt-4">
+                                    <button class="btn">Daftar</button>
+                                </div>
+                                <div class="button-guidebook mb-4 mt-3">
+                                    <button class="btn">GuideBook</button>
+                                </div>
+                                <div class="text">
+                                    <label for="">Bagaimana cara mendaftar?</label>
                                 </div>
                             </div>
-                            <!-- END TITLE & SUB-->
 
-                            <p>
-                                FIND IT! (Future Innovations and Discovery IT) merupakan sebuah kompetisi tingkat
-                                nasional
-                                di bidang Teknologi Informasi. FIND IT! merupakan acara yang bertujuan untuk
-                                mengeksplorasi
-                                dan mengedukasi publik mengenai berbagai macam elemen di bidang teknologi informasi.
-                                FIND
-                                IT! terdiri dari berbagai rangkaian acara, antara lain Hackathon, Competitive
-                                Programming,
-                                Data Analytics Competition, Esports Competition, Capture The Flag Competition dan
-                                Webinar
-                                Nasional.
-                            </p>
+                            <div class="row">
+                                <div class="overview col-md-12 m-3 p-5">
+                                    <h1 class="text-center mb-4">Overview</h1>
+                                    Capture the Flag (CTF) adalah kompetisi keamanan jaringan/informasi yang menguji
+                                    setiap peserta untuk berpikir
+                                    terstruktur dan kreatif dalam mencari sebuah informasi berharga tersembunyi yang
+                                    disebut flag dari berbagai permasalahan
+                                    yang dibagi menjadi beberapa kategori yaitu cryptography, digital forensic, binary
+                                    exploitation, reverse engineering,
+                                    web exploitation, dan opensource intelligence (OSINT).
+                                </div>
+                                <div class="timeline col-md-12 m-3 p-5">
+                                    <h1 class="text-center mb-4">TimeLine</h1>
+                                    <div class="row">
+                                        <div class="col col-kiri text-end">
+                                            <label class="mt-5">
+                                                <div>27 Maret 2022</div>
+                                                Close Registration
+                                            </label>
+                                            <br>
+                                            <label>
+                                                <div>7 Mei 2022</div>
+                                                Babak Kualifikasi
+                                            </label>
+                                            <br>
+                                            <label>
+                                                <div>28 Mei 2022</div>
+                                                Babak Final
+                                            </label>
+                                        </div>
 
-                            <!-- BTN SEE MORE -->
-                            <button class="btn btn-see-more-about-find-it mt-2"
-                                style="background-color: #00FFCE; width: 200px; height: 50px;">
-                                See more
-                            </button>
-                            <!-- END BTN SEE MORE -->
+                                        <div class=" col col-kanan text-start">
+                                            <label>
+                                                <div>Open Registration</div>
+                                            </label>
+                                            <label>
+                                                <div>6 Mei 2022</div>
+                                                Warm Up Peserta dan Panitia
+                                            </label>
+                                            <label>
+                                                <div>16 Mei 2022</div>
+                                                Pengumuman Finalis
+                                            </label>
+                                            <label>
+                                                <div>29 Mei 2022</div>
+                                                Penetapan dan Pengumuman Juara
+                                            </label>
 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prize col-md-12 m-3 p-5">
+                                    <h1 class="text-center mb-4">Prize</h1>
+                                </div>
+                                <div class="contack col-md-12 m-3 p-5">
+                                    <h1 class="text-center mb-4">Contack</h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- END PEMBUNGKUS TEST ABOUT FIND IT -->
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 200px;" viewBox="0 0 1440 320">
+            <path fill="#0F1319" fill-opacity="1" d="M0,0L1440,320L1440,0L0,0Z"></path>
+        </svg>
+        </div>
+
         <!-- =========END CONTENT KEDUA========= -->
 
         <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-t-flip.png" style="width:100%">
+        <img src="img/line-b-flip.png" style="position: relative; margin: 0 auto;" width="100%" alt="">
         <!-- END IMAGE SEPERTI PEMBATAS -->
 
-        <!-- =========CONTENT KETIGA========= -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #0F1319;">
-
-            <!-- TEXT COMPETITION -->
-            <div class="container">
-                <div class="row d-flex justify-content-center text-center">
-                    <div class="col-md-4">
-                        <h1 class="competition" data-aos="fade-down" data-aos-duration="1000">Competition</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- END TEXT COMPETITION -->
-
-            <!-- SUB FROM COMPETITION -->
-            <div class="container">
-                <div class="row d-flex justify-content-center mb-5">
-                    <div class="col-md-6 more-in-comp text-center">
-                        <span class="mx-3">
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE PRIZE
-                            </label>
-                        </span>
-                        <span class="mx-3">
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE EXCEPTIONAL
-                            </label>
-                        </span>
-                        <span>
-                            <label data-aos="flip-left" data-aos-duration="2000">
-                                MORE CHALLENGING
-                            </label>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- END SUB FROM COMPETITION -->
-
-            <!-- HACKATHON CONTENT -->
-            <div class="container">
-                <div class=" row d-flex justify-content-center">
-                    <div class="col-md-8">
-                        <div class="hackathon row d-flex justify-content-center" data-aos="zoom-in-up"
-                            data-aos-duration="1000">
-                            <div class="col-md-4 mx-5 ">
-                                <img src="img/Hackathon.webp" data-aos="zoom-in-up" data-aos-duration="1000" width="250"
-                                    alt="Hackathon">
-                            </div>
-                            <div class=" col-md-6 my-3">
-                                <div data-aos="fade-down-left" data-aos-duration="1000">
-                                    <h1 class="mb-4">Hackathon</h1>
-                                    <p class="mb-4">
-                                        Hackathon yang merupakan gabungan dari dua kata yaitu hack dan marathon adalah
-                                        kompetisi
-                                        ...
-                                    </p>
-                                    <button class="btn btn-see-more-hackathon">See More</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END HACKATHON CONTENT -->
-
-            <!-- GALERI -->
-            <div style="margin-top: 90px; margin-bottom: 300px;">
-
-            </div>
-            <!-- ENDGALERI -->
-
-            <!-- SECTION WEBINAR -->
-            <div class="container">
-                <div class="row d-flex justify-content-center webinar-sec">
-
-                    <div class="col-md-6">
-                        <img src="img/Webinar.webp" width="550" class="img-fluid" alt="Webinar" data-aos="zoom-in-up"
-                            data-aos-duration="1500">
-                    </div>
-
-                    <div class="col-md-5">
-                        <h1 style="margin-top: 170px;" class="mb-5" data-aos="zoom-in-up" data-aos-duration="1500">
-                            Webinar
-                        </h1>
-                        <div data-aos="zoom-in-down" data-aos-duration="1500">
-                            <p class="mb-5">
-                                Bertujuan menjadi sarana persiapan menghadapi konsep lingkungan virtual yang dianggap
-                                sebagai "ladang baru" dalam IT yang masih penuh dengan kesempatan untuk berkembang
-                            </p>
-                            <button class="btn btn-see-more-webinar-sec">See More</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <!-- END SECTION WEBINAR -->
-        </div>
-        <!-- =========END CONTENT KETIGAS========= -->
-
-        <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-b.png" width="100%" alt="">
-        <!-- END IMAGE SEPERTI PEMBATAS -->
-
-        <!-- CONTENT KEEMPAT -->
-        <div style="height: 100%; padding: 50px 10px 100px 10px; background-color: #EDEDED;">
-            <!-- MEDIA PARTNER -->
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1500">
-                        <h1>Media Partner</h1>
-                        <img src="img/Google-UGM.jfif" alt="google-dsc-ugml" class="mx-4" width="100">
-                        <img src="img/HIMSI.png" alt="himsi" class="mx-4" width="100">
-                    </div>
-                </div>
-            </div>
-            <!-- END MEDIA PARTNER -->
-        </div>
-        <!-- END CONTENT KEEMPAT -->
-
-        <!-- IMAGE SEPERTI PEMBATAS -->
-        <img src="img/line-b-flip.png" width="100%" alt="">
-        <!-- END IMAGE SEPERTI PEMBATAS -->
-
-        <!-- CONTENT KELIMA -->
-        <div style="height: 100%; padding: 30px 10px 30px 10px; background-color: #20252B;">
-            <div class="container p-5 ">
+        <!-- FOOTER CONTENT  -->
+        <div class="footer-content-all" style="height: 100%;  background-color: #20252B;">
+            <div class="container p-5 footer-about">
                 <div class="row d-flex justify-content-center" style="color: #EDEDED;">
                     <div class="col-md-3 p-4 m-auto">
                         <img src="img/find-it-footer.svg" alt="find-it-2022" width="200">
+                        <div class="icon d-flex justify-content-center">
+
+                            <a href="https://www.instagram.com/mhmmdsyahputra_22/" target="_blank"
+                                class="text-decoration-none" style="color: #EDEDED;">
+                                <i class="fa-brands fa-instagram fs-4 m-1"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCByZ2APfvW6STElYp57z1aQ" target="_blank"
+                                class="text-decoration-none" style="color: #EDEDED;">
+                                <i class="fa-brands fa-youtube fs-4 m-1"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammad-syahputra-65584a226/" target="_blank"
+                                class="text-decoration-none" style="color: #EDEDED;">
+                                <i class="fa-brands fa-linkedin fs-4 m-1"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none" style="color: #EDEDED;" target="_blank">
+                                <i class="fa-brands fa-line fs-4 m-1"></i>
+                            </a>
+
+                        </div>
                     </div>
                     <div class="col-md-3 p-4">
                         <h4>QUICK LINKS</h4>
@@ -318,12 +279,12 @@
                         <div>+62 882 2791 8032</div>
                     </div>
                     <div class="col-md-3 p-4 m-auto">
-                        <h3>PRESENTED BY</h3>
+                        <h4>PRESENTED BY</h4>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- END CONTENT KELIMA -->
+        <!-- END FOOTER CONTENT  -->
     </section>
 
     <footer class="p-2 text-center">
@@ -342,84 +303,6 @@
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- END CDN JQUERY -->
 
-    <!-- PARTICLE EFECT CUSTOM WITH JQUERY -->
-    <script>
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
-
-        var document_height = $(document).height() - $(window).height();
-        // circle efect
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var circle1_position_left = 90 * (scroll_position / document_height);
-                $('#circle1').css({
-                    'left': circle1_position_left
-                });
-            });
-        });
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var circle2_position_left = 90 * (scroll_position / document_height);
-                $('#circle2').css({
-                    'left': circle2_position_left
-                });
-            });
-        });
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var circle3_position_left = -90 * (scroll_position / document_height);
-                $('#circle3').css({
-                    'left': circle3_position_left
-                });
-            });
-        });
-        // end circle efect
-
-        // square efect
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var square1_position_left = -90 * (scroll_position / document_height);
-                $('#square1').css({
-                    'left': square1_position_left
-                });
-            });
-        });
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var square2_position_left = -90 * (scroll_position / document_height);
-                $('#square2').css({
-                    'left': square2_position_left
-                });
-            });
-        });
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var square3_position_left = -90 * (scroll_position / document_height);
-                $('#square3').css({
-                    'left': square3_position_left
-                });
-            });
-        });
-        $(function () {
-            $(window).scroll(function () {
-                var scroll_position = $(window).scrollTop();
-                var square4_position_left = 90 * (scroll_position / document_height);
-                $('#square4').css({
-                    'left': square4_position_left
-                });
-            });
-        });
-        // end circle efect
-    </script>
-    <!-- END PARTICLE EFECT CUSTOM WITH JQUERY -->
 
     <!-- CDN JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
