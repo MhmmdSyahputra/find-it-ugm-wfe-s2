@@ -22,59 +22,90 @@
 
     <title>Find IT! 2022</title>
     <style>
-        .coming-soon h1,
-        .coming-soon h2,
-        .coming-soon h3,
-        .coming-soon h4 {
-            font-family: Piximisa, Courier, monospace;
+        .first-content-competition .circle1 {
+            width: 200px;
+            height: 200px;
+            background: rgb(129, 56, 147);
+            background: linear-gradient(317deg, rgba(129, 56, 147, 1) 36%, rgba(33, 207, 193, 1) 79%);
+            border-radius: 100px;
+            position: relative;
+            z-index: 1;
+            margin-top: 70px;
+            margin-left: 120px;
         }
 
-        .coming-soon h5 {
-            color: #E8E9E9;
-            font-weight: bold;
-            text-shadow: 0 0 10px #FFFFFF, 2px 19px 2px rgba(0, 255, 206, 0);
+        .first-content-competition .circle2 {
+            width: 50px;
+            height: 50px;
+            background: rgb(250, 173, 49);
+            background: linear-gradient(317deg, rgba(250, 173, 49, 1) 36%, rgba(238, 96, 162, 1) 79%);
+            border-radius: 100px;
+            position: relative;
+            z-index: 1;
+            margin-top: 10px;
+            margin-left: 100px;
         }
 
-        .coming-soon h1 {
-            font-weight: 1000;
+        .first-content-competition .balok-left {
+            width: 450px;
+            height: 70px;
+            background-color: #2C3238;
+            position: relative;
+            z-index: 1;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .first-content-competition .kotak-left {
+            width: 500px;
+            height: 470px;
+            background: rgba(245, 245, 245, .7);
+            position: relative;
+            z-index: 2;
+            border-radius: 30px;
+            margin-left: 270px;
+            margin-top: -500px;
+            padding: 20px;
+        }
+
+        .first-content-competition .kotak-right {
+            width: 380px;
+            height: 380px;
+            background: rgba(26, 26, 26, 0.9);
+            position: relative;
+            z-index: 3;
+            border-radius: 30px;
+            margin-left: 700px;
+            margin-top: -425px;
+            font-family: piximisa;
             font-size: 40px;
-            background: #E79326;
-            background: -webkit-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            background: -moz-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            background: linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #EFEFEF;
+            padding-top: 130px;
         }
 
-        .coming-soon h2 {
-            font-weight: 1000;
-            font-size: 30px;
-            filter: blur(2px);
-            background: #871E83;
-            background: -webkit-linear-gradient(to top right, #871E83 12%, #098270 88%);
-            background: -moz-linear-gradient(to top right, #871E83 12%, #098270 88%);
-            background: linear-gradient(to top right, #871E83 12%, #098270 88%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .first-content-competition .balok-right {
+            width: 470px;
+            height: 200px;
+            background-color: #2C3238;
+            position: relative;
+            z-index: 2;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            margin-left: auto;
+            margin-top: -450px;
         }
 
-        .coming-soon h3 {
-            font-weight: 1000;
-            font-size: 20px;
-            filter: blur(3px);
-            background: #E79326;
-            background: -webkit-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            background: -moz-linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            background: linear-gradient(to left, #E79326 25%, #871E83 60%, #078470 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .coming-soon h4 {
-            font-weight: 1000;
-            font-size: 10px;
-            color: green;
-            filter: blur(4px);
+        .first-content-competition .circle3 {
+            width: 100px;
+            height: 100px;
+            background: rgb(250, 173, 49);
+            background: linear-gradient(317deg, rgba(250, 173, 49, 1) 36%, rgba(238, 96, 162, 1) 79%);
+            position: relative;
+            z-index: 5;
+            border-radius: 100px;
+            margin-top: 40px;
+            margin-left: 1050px;
         }
     </style>
 </head>
@@ -121,15 +152,18 @@
     <section class="content">
 
         <!-- =========CONTENT PERTAMA========= -->
-        <div class="first-content-competition"
-            style="height: 96vh; padding: 50px 10px 80px 10px; background-color: #D1D1D1;">
+        <div class="first-content-competition" style="height: 96vh; padding-top:20px; background-color: #D1D1D1;">
+
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+
+            <div class="balok-left"></div>
+            <div class="kotak-left"><img src="img/CTF.webp" width="100%" alt=""></div>
+            <div class="kotak-right text-center py-auto">Capture The <br> Flag</div>
+            <div class="balok-right"></div>
 
 
-            <div class="container">
-                <div class="row d-flex justify-content-center text-center my-5">
-
-                </div>
-            </div>
 
         </div>
         <!-- =========END CONTENT PERTAMA========= -->
@@ -140,18 +174,24 @@
 
         <!-- =========CONTENT KEDUA========= -->
         <div class="second-content-competition">
-            <div style="height: 260vh; padding: 50px 10px 80px 10px; background-color: #0F1319;">
+            <div style="height: 270vh; padding: 50px 10px 80px 10px; background-color: #0F1319;">
                 <div class="container">
+                    <!-- START ROW BOX ALL COMP -->
                     <div class="row position-absolute d-flex justify-content-center text-center my-5 mx-4"
                         style="left: 1%; margin-left: -1px; right: 1%; margin-right: -1px;">
+                        <!-- START COL STICKY AND COL RIGHT -->
                         <div class="all-col col-md-10 d-flex justify-content-between">
 
-                            <div class="col-md-4 ctf-competition position-sticky m-3 ms-auto py-5"
-                                style="top:20px; height: 90vh;">
-                                <img src="img/CTF.webp" width="250" alt="">
+                            <!-- START COL STICKY -->
+                            <div class="col-md-4 ctf-competition position-sticky m-3 ms-auto py-5 d-flex flex-column"
+                                style="top:35px; height: 90vh;">
+                                <img src="img/CTF.webp" class="m-auto" width="250" alt="">
                                 <h1 class="text-center mb-3">Capture The Flag</h1>
-                                <span class="me-2 tingkat">SLTA, Mahasiswa</span>
-                                <span class="harga">Rp. 100.000</span>
+                                <div>
+                                    <span class="me-2 tingkat">SLTA, Mahasiswa</span>
+                                    <span class="harga">Rp. 100.000</span>
+                                </div>
+
                                 <div class="button-daftar mt-3 mt-4">
                                     <button class="btn">Daftar</button>
                                 </div>
@@ -162,9 +202,12 @@
                                     <label for="">Bagaimana cara mendaftar?</label>
                                 </div>
                             </div>
+                            <!-- END COL STICKY -->
 
+                            <!-- START ROW RIGHT -->
                             <div class="row">
-                                <div class="overview col-md-12 m-3 p-5">
+                                <!-- START COL OVERVIEW -->
+                                <div class="overview col-md-12 m-3 p-5" data-aos="zoom-in" data-aos-duration="1500">
                                     <h1 class="text-center mb-4">Overview</h1>
                                     Capture the Flag (CTF) adalah kompetisi keamanan jaringan/informasi yang menguji
                                     setiap peserta untuk berpikir
@@ -174,73 +217,117 @@
                                     exploitation, reverse engineering,
                                     web exploitation, dan opensource intelligence (OSINT).
                                 </div>
-                                <div class="timeline col-md-12 m-3 p-5">
+                                <!-- END COL OVERVIEW -->
+
+                                <!-- START COL TIMELINE -->
+                                <div class="timeline col-md-12 m-3 p-5" data-aos="zoom-in" data-aos-duration="1500">
                                     <h1 class="text-center mb-4">TimeLine</h1>
+                                    <!-- START ROW TIMELINE IN COL RIGHT -->
                                     <div class="row">
+
+                                        <!-- START COL LEFT TIMELINE IN COL RIGHT -->
                                         <div class="col col-kiri text-end">
-                                            <label class="mt-5">
+                                            <label class="text-end mt-5 d-block" data-aos="zoom-in-left"
+                                                data-aos-duration="1500">
                                                 <div>27 Maret 2022</div>
                                                 Close Registration
                                             </label>
                                             <br>
-                                            <label>
+                                            <label class="text-end d-block" data-aos="zoom-in-left"
+                                                data-aos-duration="1500">
                                                 <div>7 Mei 2022</div>
                                                 Babak Kualifikasi
                                             </label>
                                             <br>
-                                            <label>
+                                            <label class="text-end d-block" data-aos="zoom-in-left"
+                                                data-aos-duration="1500">
                                                 <div>28 Mei 2022</div>
                                                 Babak Final
                                             </label>
                                         </div>
+                                        <!-- END COL LEFT TIMELINE IN COL RIGHT -->
 
-                                        <div class=" col col-kanan text-start">
-                                            <label>
+                                        <!-- START COL RIGHT TIMELINE IN COL RIGHT -->
+                                        <div class="col col-kanan text-start">
+                                            <label class="text-start d-block" data-aos="zoom-in-right"
+                                                data-aos-duration="1500">
                                                 <div>Open Registration</div>
                                             </label>
-                                            <label>
+                                            <label class="text-start d-block" data-aos="zoom-in-right"
+                                                data-aos-duration="1500">
                                                 <div>6 Mei 2022</div>
                                                 Warm Up Peserta dan Panitia
                                             </label>
-                                            <label>
+                                            <label class="text-start d-block" data-aos="zoom-in-right"
+                                                data-aos-duration="1500">
                                                 <div>16 Mei 2022</div>
                                                 Pengumuman Finalis
                                             </label>
-                                            <label>
+                                            <label class="text-start d-block" data-aos="zoom-in-right"
+                                                data-aos-duration="1500">
                                                 <div>29 Mei 2022</div>
                                                 Penetapan dan Pengumuman Juara
                                             </label>
 
                                         </div>
+                                        <!-- START COL RIGHT TIMELINE IN COL RIGHT -->
+
                                     </div>
+                                    <!-- END ROW TIMELINE IN COL RIGHT -->
                                 </div>
-                                <div class="prize col-md-12 m-3 p-5">
+                                <!-- END COL TIMELINE -->
+
+                                <!-- START COL PRIZE -->
+                                <div class="prize col-md-12 m-3 p-5" data-aos="zoom-in" data-aos-duration="1500">
                                     <h1 class="text-center mb-4">Prize</h1>
-                                    <div class="text-start">
+                                    <div class="text-start" data-aos="flip-left" data-aos-duration="1500">
                                         <img src="img/first-place.png" class="img-fluid" alt="">
                                     </div>
-                                    <div class="text-end">
+                                    <div class="text-end" data-aos="flip-right" data-aos-duration="1500">
                                         <img src="img/second-place.png" class="img-fluid" alt="">
                                     </div>
-                                    <div class="text-start">
+                                    <div class="text-start" data-aos="flip-left" data-aos-duration="1500">
                                         <img src="img/third-place.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
-                                <div class="contack col-md-12 m-3 p-5">
+                                <!-- END COL PRIZE -->
+
+                                <!-- START COL CONTACK -->
+                                <div class="contack col-md-12 m-3 p-5" data-aos="zoom-in" data-aos-duration="1500">
                                     <h1 class="text-center mb-4">Contack</h1>
 
-                                    <div class="col p-5 "
+                                    <!-- START COL PERSON IN CONTACK -->
+                                    <div class="col p-5" data-aos="flip-up" data-aos-duration="1500"
                                         style="background-color:#2C3238; margin: 10px 100px 10px 100px;">
                                         <h2>Yosef / Giga</h2>
                                         <hr>
-                                        <label class="mb-4">@yosefadi / @gigahidjrikaaa</label>
-                                        <label class="mb-4">Toluene#1940 / Infinicus#6867</label>
-                                        <label>yosefadis / angiga</label>
+                                        <label class="mb-4 d-block">
+                                            <i class="fa-brands fa-telegram fs-3 me-3"></i>
+                                            @yosefadi / @gigahidjrikaaa
+                                        </label>
+                                        <label class="mb-4 d-block">
+                                            <i class="fa-brands fa-discord fs-3 me-3"></i>
+                                            Toluene#1940 / Infinicus#6867
+                                        </label>
+                                        <label>
+                                            <i class="fa-brands fa-line fs-3 me-3"></i>
+                                            yosefadis / angiga
+                                        </label>
                                     </div>
+                                    <!-- END COL PERSON IN CONTACK -->
+
                                 </div>
+                                <!-- END COL CONTACK -->
+
                             </div>
+                            <!-- END ROW RIGHT -->
+
                         </div>
+                        <!-- END COL STICKY AND COL RIGHT -->
+
                     </div>
+                    <!-- END ROW BOX ALL COMP -->
+
                 </div>
             </div>
 

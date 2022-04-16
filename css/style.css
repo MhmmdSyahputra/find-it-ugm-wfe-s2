@@ -305,20 +305,45 @@ header .about:hover {
 
 .second-content-competition h1{
     font-family: Montserrat-bold;
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 0 0 30px #943ac5, 2px 2px 2px rgb(53,40,60);
 }
+.second-content-competition .ctf-competition h1{
+    font-family: Montserrat-bold;
+    font-size: 25px;
+    text-shadow: 0 0 20px #FFCE00, 1px 1px 1px rgb(53,40,60);
+}
+
+.second-content-competition .overview h1
+.second-content-competition .overview h1
+.second-content-competition .overview h1
+.second-content-competition .overview h1{
+    font-family: Montserrat-bold;
+    font-size: 25px;
+}
+
+
+
 .second-content-competition .timeline .col-kiri{
    border-right: 2px solid #2C3238;
+   height: 420px;
+   position: relative;
 }
-.second-content-competition .timeline .col-kanan label{
-   margin-bottom: 100px;
-}
+
+.second-content-competition .timeline .col-kanan label,
 .second-content-competition .timeline .col-kiri label{
    margin-bottom: 100px;
 }
 
-.second-content-competition .timeline .col label div{
+
+.second-content-competition .timeline .col label div
+{
      font-family: montserrat-bold;
+}
+
+.second-content-competition .contack h2{
+     font-family: montserrat-bold;
+     font-size: 32px;
 }
 
 
