@@ -236,6 +236,17 @@ header .about:hover {
     color: #FFCE00;
 }
 
+.third-content-index .webinar-sec label{
+    font-family: montserrat-bold;
+    width: 180px;
+    margin-bottom: 40px;
+    border-left: 70px solid #FFCE00;
+    background-color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.4em;
+}
+
 .third-content-index .webinar-sec p{
     font-size: 0.8em;
     color: #E8E9E9;
