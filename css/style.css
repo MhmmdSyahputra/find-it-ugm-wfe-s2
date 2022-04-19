@@ -64,8 +64,8 @@ header .about:hover {
     border-radius: 10px;
     padding: 80px 60px 80px 60px;
     background-image: url(../img/kotak2.png);
-    background-size: contain;
-    background-size: cover;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -153,8 +153,8 @@ header .about:hover {
 
 .third-content-index .slide{
     background-image: url(../img/kotak3.png);
-    background-size: contain;
-    background-size: cover;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 100px;
     height: 100%;
