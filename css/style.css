@@ -326,13 +326,13 @@ header .about:hover {
 
 .second-content-competition .timeline .col-kiri{
    border-right: 2px solid #2C3238;
-   height: 420px;
+   height: 350px;
    position: relative;
 }
 
 .second-content-competition .timeline .col-kanan label,
 .second-content-competition .timeline .col-kiri label{
-   margin-bottom: 100px;
+   margin-bottom: 50px;
 }
 
 
