@@ -366,6 +366,12 @@ header .about:hover {
 .footer-content-all .footer-about .col-md-3 div{
     font-size: 12px;
 }
+.footer-content-all .footer-about .col-md-3 a{
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+
 
 footer{
     font-size: 0.6em;
