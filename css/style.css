@@ -221,8 +221,7 @@ header .about:hover {
     background-color: #20252B;
 }
 
-/* SAAT DI SOROR */
-.third-content-index .galeri-comp div :hover {
+.third-content-index .galeri-comp .active-galeri {
     border-radius: 10px;
     background-color: #00FFCE;
     color: black;

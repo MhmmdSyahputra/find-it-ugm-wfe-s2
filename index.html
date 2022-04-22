@@ -431,8 +431,8 @@
                 <!-- GALERI -->
                 <div style="margin-bottom: 150px;">
                     <div class="row d-flex justify-content-center galeri-comp">
-                        <div class="col-md-2 text-center py-auto m-1">
-                            <label for="radio1">
+                        <div class="col-md-2 text-center py-auto m-1 ">
+                            <label for="radio1" class="allgaleri" id="radio1">
                                 <div class="p-2 m-1 bd-highlight ">
                                     <h2><i class="fa-solid fa-flag"></i></h2>
                                     Capture The Flag
@@ -441,7 +441,7 @@
                         </div>
 
                         <div class="col-md-2 text-center py-auto m-1">
-                            <label for="radio2">
+                            <label for="radio2" class="allgaleri ">
                                 <div class="p-2 m-1 bd-highlight">
                                     <h2><i class="fa-solid fa-laptop-code"></i></h2>
                                     Competitive Programming
@@ -449,8 +449,8 @@
                             </label>
                         </div>
 
-                        <div class="col-md-2 text-center py-auto m-1">
-                            <label for="radio3">
+                        <div class="col-md-2 text-center py-auto m-1 ">
+                            <label for="radio3" class="allgaleri active-galeri">
                                 <div class="p-2 m-1 bd-highlight">
                                     <h2><i class="fa-solid fa-lightbulb"></i></h2>
                                     Hackathon
@@ -458,8 +458,8 @@
                             </label>
                         </div>
 
-                        <div class="col-md-2 text-center py-auto m-1">
-                            <label for="radio4">
+                        <div class="col-md-2 text-center py-auto m-1 ">
+                            <label for="radio4" class="allgaleri">
                                 <div class="p-2 m-1 bd-highlight">
                                     <h2><i class="fa-solid fa-arrow-trend-up"></i></h2>
                                     Data Analytics Competition
@@ -467,8 +467,8 @@
                             </label>
                         </div>
 
-                        <div class="col-md-2 text-center py-auto m-1">
-                            <label for="radio5">
+                        <div class="col-md-2 text-center py-auto m-1 ">
+                            <label for="radio5" class="allgaleri">
                                 <div class="p-2 m-1 bd-highlight">
                                     <h2><i class="fa-solid fa-gamepad "></i></h2>
                                     E-sport
@@ -651,6 +651,13 @@
 
     <!-- PARTICLE EFECT CUSTOM WITH JQUERY -->
     <script>
+
+        $(document).ready(function () {
+            $(".allgaleri").click(function () {
+                $(".allgaleri").removeClass("active-galeri");
+                $(this).addClass("active-galeri");
+            });
+        });
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -658,6 +665,7 @@
 
         var document_height = $(document).height() - $(window).height();
         // circle efect
+        // if 90 move right and -90 move left
         $(function () {
             $(window).scroll(function () {
                 var scroll_position = $(window).scrollTop();
@@ -724,7 +732,7 @@
                 });
             });
         });
-        // end circle efect
+    // end circle efect
     </script>
     <!-- END PARTICLE EFECT CUSTOM WITH JQUERY -->
 
