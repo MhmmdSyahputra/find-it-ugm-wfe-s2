@@ -149,6 +149,12 @@
     </header>
     <!-- End Navbar -->
 
+    <!-- start botton to top -->
+    <button onclick="topFunction()" class="shadow rounded-circle" id="myBtn">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <!-- start botton to top -->
+
     <section class="content">
 
         <!-- =========CONTENT PERTAMA========= -->
@@ -454,10 +460,19 @@
     </script>
     <!-- END CDN AOS (ANIMASI) -->
 
-    <!-- CDN JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- END CDN JQUERY -->
+    <script>
+        mybutton = document.getElementById("myBtn");
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+    </script>
 
 
     <!-- CDN JAVASCRIPT BOOTSTRAP -->

@@ -25,54 +25,6 @@
         body {
             background-color: #030203;
         }
-
-        .evo-box {
-
-            padding: 20px;
-            background-image: linear-gradient(180deg, #11161C, #1D2228);
-            border-width: 4px;
-            border-style: solid;
-            border-image: linear-gradient(27deg, rgba(17, 145, 250, 1) 22%, rgba(176, 45, 167, 1) 75%);
-            border-image-slice: 1;
-        }
-
-
-        .evo-box h1 {
-            font-family: Piximisa, Courier, monospace;
-            font-weight: bold;
-            color: #FFFFFF;
-            text-shadow: 0 0 10px #32301B, 2px 2px 2px rgba(206, 89, 55, 0);
-        }
-
-        .evo-box label {
-            font-size: 1.4rem;
-            font-weight: 700;
-            background: #C0597B;
-            background: -webkit-linear-gradient(to top, #C0597B 0%, #C68637 67%);
-            background: -moz-linear-gradient(to top, #C0597B 0%, #C68637 67%);
-            background: linear-gradient(to top, #C0597B 0%, #C68637 67%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .image-galeri {
-            margin-bottom: 300px;
-            padding: 30px 20px 30px 20px;
-            background-color: #20252B;
-            border-width: 3px;
-            border-style: solid;
-            border-image: linear-gradient(180deg, rgba(0, 255, 206, 1) 0%, rgba(35, 227, 205, 1) 39%, rgba(233, 68, 202, 1) 73%);
-            border-image-slice: 1;
-        }
-
-        .image-galeri h2 {
-            background: #A4DF49;
-            background: -webkit-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
-            background: -moz-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
-            background: linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
     </style>
 </head>
 
@@ -115,6 +67,12 @@
     </header>
     <!-- End Navbar -->
 
+    <!-- start botton to top -->
+    <button onclick="topFunction()" class="shadow rounded-circle" id="myBtn">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <!-- start botton to top -->
+
     <section class="content">
 
         <!-- =========CONTENT PERTAMA========= -->
@@ -128,7 +86,17 @@
                     <div class="col-md-6 mx-5" data-aos="fade-right" data-aos-duration="2000">
                         <img src="img/box-layer-about.png" style="margin-left:-50px" alt="">
                         <h1>Find IT!</h1>
-                        Future Innovations and Discovery IT
+                        <div class="row mb-4" style="height: 10px;">
+                            <div class="col-md-5">
+                                <p style="width: 100px; border: 1px solid #FFFFFF;">
+                            </div>
+                            <div class="col-md-14 mx-3 d-flex">
+                                <label style="margin-left: 90px; margin-top: -26px; font-size: 0.7em;">
+                                    Future Innovation and Discovery IT
+                                </label>
+                            </div>
+                        </div>
+
                         <p class="text-justify">
                             FIND IT atau kependekan dari Future Innovation and Discovery Information and Technology,
                             merupakan sebuah acara/event tahunan yang diselenggarakan oleh DTETI FT UGM dimana pada
@@ -317,10 +285,19 @@
     </script>
     <!-- END CDN AOS (ANIMASI) -->
 
-    <!-- CDN JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- END CDN JQUERY -->
+    <script>
+        mybutton = document.getElementById("myBtn");
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
 
 
 

@@ -168,6 +168,12 @@
     </header>
     <!-- End Navbar -->
 
+    <!-- start botton to top -->
+    <button onclick="topFunction()" class="shadow rounded-circle" id="myBtn">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <!-- start botton to top -->
+
     <section class="content">
 
         <!-- =========CONTENT PERTAMA========= -->
@@ -254,8 +260,7 @@
                                         <p style="width: 180px; border: 1px solid #FFFFFF;">
                                     </div>
                                     <div class="col-md-14 mx-3 d-flex">
-                                        <label class="future"
-                                            style="margin-left: 170px; margin-top: -26px; font-size: 0.7em;">
+                                        <label style="margin-left: 170px; margin-top: -26px; font-size: 0.7em;">
                                             Future Innovation and Discovery IT
                                         </label>
                                     </div>
@@ -280,7 +285,7 @@
                             <!-- BTN SEE MORE -->
                             <button class="btn btn-see-more-about-find-it mt-2"
                                 style="background-color: #00FFCE; width: 200px; height: 50px;">
-                                See more
+                                See more &nbsp;<i class="fa-solid fa-angle-right"></i>
                             </button>
                             <!-- END BTN SEE MORE -->
 
@@ -519,7 +524,8 @@
                                 Bertujuan menjadi sarana persiapan menghadapi konsep lingkungan virtual yang dianggap
                                 sebagai "ladang baru" dalam IT yang masih penuh dengan kesempatan untuk berkembang
                             </p>
-                            <button class="btn btn-see-more-webinar-sec">See More</button>
+                            <button class="btn btn-see-more-webinar-sec">See More &nbsp; <i
+                                    class="fa-solid fa-angle-right"></i></button>
                         </div>
                     </div>
 
@@ -661,16 +667,32 @@
     <!-- PARTICLE EFECT CUSTOM WITH JQUERY -->
     <script>
 
+        // start add and remove class active in galeri index
         $(document).ready(function () {
             $(".allgaleri").click(function () {
                 $(".allgaleri").removeClass("active-galeri");
                 $(this).addClass("active-galeri");
             });
         });
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
+        // end add and remove class active in galeri index
+
+        mybutton = document.getElementById("myBtn");
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
 
         var document_height = $(document).height() - $(window).height();
         // circle efect

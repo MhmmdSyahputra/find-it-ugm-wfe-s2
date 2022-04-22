@@ -32,6 +32,23 @@ body::-webkit-scrollbar {
 }
   /* END SCROLL CUSTOM */
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 80px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2C3238;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+
 
  /* NavBar Ketika di sorot */
 .active {
@@ -356,6 +373,53 @@ header .about:hover {
 }
 
 
+.first-content-about .evo-box {
+    padding: 20px;
+    background-image: linear-gradient(180deg, #11161C, #1D2228);
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(27deg, rgba(17, 145, 250, 1) 22%, rgba(176, 45, 167, 1) 75%);
+    border-image-slice: 1;
+}
+
+
+.evo-box h1 {
+    font-family: Piximisa, Courier, monospace;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #32301B, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.first-content-about .evo-box label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: #C0597B;
+    background: -webkit-linear-gradient(to top, #C0597B 0%, #C68637 67%);
+    background: -moz-linear-gradient(to top, #C0597B 0%, #C68637 67%);
+    background: linear-gradient(to top, #C0597B 0%, #C68637 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-content-about .image-galeri {
+    margin-bottom: 300px;
+    padding: 30px 20px 30px 20px;
+    background-color: #20252B;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(180deg, rgba(0, 255, 206, 1) 0%, rgba(35, 227, 205, 1) 39%, rgba(233, 68, 202, 1) 73%);
+    border-image-slice: 1;
+}
+.first-content-about .image-galeri h2 {
+    background: #A4DF49;
+    background: -webkit-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+    background: -moz-linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+    background: linear-gradient(to top, #A4DF49 35%, #4DF090 56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .footer-content-all .footer-about h4{
     font-family: Piximisa, Courier, monospace;
     font-size: 24px;
@@ -369,7 +433,6 @@ header .about:hover {
     color: #EDEDED;
     text-decoration: none;
 }
-
 
 
 footer{
